@@ -102,6 +102,7 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback, 
         barrier = new Barrier(this);
         score = new Score(this);
         score.setScoreMax(scoreMax);
+
     }
 
     @Override

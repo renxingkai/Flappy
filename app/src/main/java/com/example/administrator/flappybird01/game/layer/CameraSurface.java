@@ -57,7 +57,7 @@ public class CameraSurface extends SurfaceView implements SurfaceHolder.Callback
 
         if (null != camera) {
             try {
-                camera.setDisplayOrientation(90);
+                //camera.setDisplayOrientation(90);
                 camera.setPreviewDisplay(holder);//设置预览
 
             } catch (IOException e) {
